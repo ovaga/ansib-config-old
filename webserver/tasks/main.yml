@@ -14,7 +14,11 @@
 - name: clone a repo
   become: true
   ansible.builtin.git:
+<<<<<<< HEAD
     repo: https://github.com/ovaga/ci-pipeline-for-tooling-web.git
+=======
+    repo: https://github.com/ovaga/tooling.git
+>>>>>>> bf86bbdd819f2e9839e695c731822f95e16d4a48
     dest: /var/www/html
     force: yes
 
